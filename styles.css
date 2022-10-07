@@ -104,7 +104,7 @@ width: 100%;
     transition: all 0.3s ease;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1360px) {
 .navbar__container{
     display: flex;
     justify-content:space-between;
