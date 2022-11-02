@@ -103,7 +103,8 @@ width: 100%;
     transition: all 0.3s ease;
 }
 
-@media (max-width: 1201px) {
+/*@media (max-width: 1201px) {*/
+@media {
 .navbar__container{
     display: flex;
     justify-content:space-between;
@@ -304,6 +305,7 @@ width: 100%;
 
 /* Mobile Responsive */
 
+/*
 @media (max-width: 1201px){
     .main__container{
         display: grid;
@@ -335,11 +337,11 @@ width: 100%;
     }
 }
     
-/* /?* @media (max-width: 1201px) { */
+@media (max-width: 1201px) { 
    
 
     .main__content h1 {
-        /* font-size: 2.5rem;
+         font-size: 2.5rem;
         margin-top: 3rem;
     }
 
@@ -356,7 +358,7 @@ width: 100%;
         padding: 12px 36px;
         margin: 2.5rem 0;
     }
-/* } */
+} */
 
 /* Services Section CSS */
 .services {
@@ -444,6 +446,7 @@ width: 100%;
     cursor: pointer;
 }
 
+/*
 @media screen and (max-width: 1860px){
     .services{
         height: 1600px;
@@ -468,6 +471,7 @@ width: 100%;
         width: 3000px;
     }
 } 
+*/
 
 /* Footer CSS */
 
