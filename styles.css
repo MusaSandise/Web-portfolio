@@ -43,7 +43,6 @@
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
-
 }
 
 .fa-gam{
@@ -104,7 +103,7 @@ width: 100%;
     transition: all 0.3s ease;
 }
 
-@media screen and (max-width: 1860px) {
+@media (max-width: 1201px) {
 .navbar__container{
     display: flex;
     justify-content:space-between;
@@ -122,7 +121,8 @@ width: 100%;
     margin: 0;
     width: 100%;
     position: absolute;
-    
+    top: -1000px;
+    opacity:0;
     transition: all 0.5s ease;
     height: 50vh;
     z-index: -1;
@@ -201,7 +201,7 @@ width: 100%;
 /* Hero Section CSS */
 
 .main {
-    background-color: #ff0000;
+    background-color: #141414;
 }
 
 .main__container {
@@ -214,7 +214,7 @@ width: 100%;
     background-color: #141414;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
+    max-width: 1860px;
     padding: 0 50px;
 }
 
@@ -229,7 +229,7 @@ width: 100%;
     -moz-text-fill-color: transparent;
 }
 
-.main__content H2 {
+.main__content h2 {
     font-size: 4rem;
     background-color: #ff8177;
     background-image: linear-gradient(to top,#b721ff 0%, #21d4fd 100%);
@@ -244,7 +244,7 @@ width: 100%;
     margin-top: 1rem;
     font-size: 2rem;
     font-weight: 700;
-    color:#fff;
+    color:rgb(245, 235, 235);
 }
 
 .main__btn {
@@ -291,13 +291,20 @@ width: 100%;
 }
 
 #main__img{
-    height: 80%;
-    width: 80%;
+    margin: 1rem;
+    height: 525px;
+    width: 400px;
+    border-radius: 4px;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0)0%, rgba(17,17,17,0.6)100%),
+    url('images/main\ pic\ .jpg');
+    background-size: cover;
+    position: relative;
+    color: #fff;
 }
 
 /* Mobile Responsive */
 
-@media screen and (max-width: 1860px){
+@media (max-width: 1201px){
     .main__container{
         display: grid;
         grid-template-columns: auto;
@@ -328,11 +335,11 @@ width: 100%;
     }
 }
     
-/* @media screen and (max-width: 1880px) {
+/* /?* @media (max-width: 1201px) { */
    
 
     .main__content h1 {
-        font-size: 2.5rem;
+        /* font-size: 2.5rem;
         margin-top: 3rem;
     }
 
@@ -349,7 +356,7 @@ width: 100%;
         padding: 12px 36px;
         margin: 2.5rem 0;
     }
-} */
+/* } */
 
 /* Services Section CSS */
 .services {
@@ -383,12 +390,12 @@ width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
+}    
 
 .services__card{
     margin: 1rem;
-    height: 525px;
-    width: 400px;
+    height: 450px;
+    width: 300px;
     border-radius: 4px;
     background-image: linear-gradient(to bottom, rgba(0,0,0,0)0%, rgba(17,17,17,0.6)100%),
     url('images/pic2.jpg');
@@ -430,6 +437,42 @@ width: 100%;
     font-size: 1rem;
     cursor: pointer;
 }
+
+.services__card button:hover {
+    transform: scale(1.075);
+    transition: 0.25 ease-in;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1860px){
+    .services{
+        height: 1600px;
+    }
+
+    .servives h1 {
+        font-size: 2rem;
+        margin-top: 12rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .services{
+        height: 1400px;
+    }
+
+    .services h1 {
+        font-size: 1.2rem;
+    }
+
+    .services__card {
+        width: 3000px;
+    }
+} 
+
+/* Footer CSS */
+
+
+
 
 
 
